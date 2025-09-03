@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="7e4d10f8c3b722108c14f1d4e40131fb" extends="task" label="Review" max_length="40" name="x_1303339_netflix_review" type="collection">
         <element label="Reproval reason" max_length="4000" name="reproval_reason" type="string"/>
-        <element label="Media" max_length="32" name="media" reference="x_1303339_netflix_media" type="reference"/>
+        <element display="true" label="Media" max_length="32" name="media" reference="x_1303339_netflix_media" type="reference"/>
         <element choice="1" label="Rating" max_length="40" name="rating" type="choice">
             <choice>
                 <element inactive_on_update="false" label="5" sequence="4" value="5"/>
