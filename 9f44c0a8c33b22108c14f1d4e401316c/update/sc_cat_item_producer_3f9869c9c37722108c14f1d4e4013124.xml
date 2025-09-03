@@ -89,14 +89,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-03 17:37:12</sys_created_on>
         <sys_id>3f9869c9c37722108c14f1d4e4013124</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name>Sharkflix</sys_name>
         <sys_package display_value="Sharkflix" source="x_1303339_netflix">9f44c0a8c33b22108c14f1d4e401316c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Sharkflix">9f44c0a8c33b22108c14f1d4e401316c</sys_scope>
         <sys_update_name>sc_cat_item_producer_3f9869c9c37722108c14f1d4e4013124</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-03 19:38:00</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-03 20:17:29</sys_updated_on>
         <table_name>x_1303339_netflix_review</table_name>
         <taxonomy_topic display_value="Software">d22413a7c3053010069aec4b7d40ddf8</taxonomy_topic>
         <template/>
@@ -104,7 +104,7 @@
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>18</version>
+        <version>27</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
