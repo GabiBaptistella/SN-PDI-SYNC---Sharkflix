@@ -36,8 +36,11 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p><span data-teams="true">Hello ${opened_by.first_name}. Thank you for your review for the ${media.type} ${media.title}.It is approved.</span></p>
-<p>&nbsp;</p>]]></message_html>
+        <message_html><![CDATA[<p>Hello ${opened_by.first_name}.</p>
+<p>Thank you for your review for the ${media.type} ${media.title}.</p>
+<p>It is <strong>approved</strong></p>
+<p><img style="width: 300px;" src="${media.poster}"></p>
+<p>If you want to send more reviews, click <a href="https://dev292922.service-now.com/sp?id=sc_cat_item&amp;sys_id=3f9869c9c37722108c14f1d4e4013124">here</a></p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Review Approved</name>
@@ -59,7 +62,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f1c8ee2ec3bbe6108c14f1d4e401311a</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Review Approved</sys_name>
         <sys_overrides/>
         <sys_package display_value="Sharkflix" source="x_1303339_netflix">9f44c0a8c33b22108c14f1d4e401316c</sys_package>
@@ -67,7 +70,7 @@
         <sys_scope display_value="Sharkflix">9f44c0a8c33b22108c14f1d4e401316c</sys_scope>
         <sys_update_name>sysevent_email_action_f1c8ee2ec3bbe6108c14f1d4e401311a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-08 13:35:38</sys_updated_on>
+        <sys_updated_on>2025-09-08 22:16:33</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
