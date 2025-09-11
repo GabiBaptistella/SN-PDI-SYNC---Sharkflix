@@ -31,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>32fdbbbec37322108c14f1d4e4013170</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_name>Integration OMDB Api</sys_name>
         <sys_overrides/>
         <sys_package display_value="Sharkflix" source="x_1303339_netflix">9f44c0a8c33b22108c14f1d4e401316c</sys_package>
@@ -39,7 +39,7 @@
         <sys_scope display_value="Sharkflix">9f44c0a8c33b22108c14f1d4e401316c</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_32fdbbbec37322108c14f1d4e4013170</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-09 17:50:31</sys_updated_on>
+        <sys_updated_on>2025-09-11 12:14:23</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -128,10 +128,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-09 14:58:23</sys_created_on>
         <sys_id>6427c887c3f322108c14f1d4e4013188</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Sharkflix">9f44c0a8c33b22108c14f1d4e401316c</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-09 16:27:42</sys_updated_on>
+        <sys_updated_on>2025-09-11 12:14:06</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6427c887c3f322108c14f1d4e4013188"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -349,11 +349,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-09 16:10:39</sys_created_on>
         <sys_id>5fa7588bc33722108c14f1d4e401318a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-09 16:27:42</sys_updated_on>
+        <sys_updated_on>2025-09-11 12:14:06</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value>{"type":"ADV_NV","value":[{"name":"apikey","value":"{{step[aab3d8b8-65f1-427a-971c-b44d9d10e6db].apikey}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"t","value":"{{action.title1}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"y","value":"{{action.year}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"plot","value":"{{step[aab3d8b8-65f1-427a-971c-b44d9d10e6db].plot}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+        <value>{"type":"ADV_NV","value":[{"name":"apikey","value":"{{step[aab3d8b8-65f1-427a-971c-b44d9d10e6db].apikey}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"t","value":"{{action.title1}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"type","value":"{{action.type1}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"y","value":"{{action.year}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"plot","value":"{{step[aab3d8b8-65f1-427a-971c-b44d9d10e6db].plot}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
     </sys_element_mapping>
     <sys_translated_text action="delete_multiple" query="documentkey=6427c887c3f322108c14f1d4e4013188"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=6427c887c3f322108c14f1d4e4013188"/>
@@ -504,7 +504,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ac7f5cc3c37722108c14f1d4e40131fc</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -512,7 +512,7 @@
         <sys_scope display_value="Sharkflix">9f44c0a8c33b22108c14f1d4e401316c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-09 17:50:29</sys_updated_on>
+        <sys_updated_on>2025-09-11 12:14:20</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -1357,7 +1357,7 @@ outputs.endpoint = gs.getProperty("x_1303339_netflix.integration_endpoint", "");
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>56502047c37722108c14f1d4e401310e</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1365,7 +1365,7 @@ outputs.endpoint = gs.getProperty("x_1303339_netflix.integration_endpoint", "");
         <sys_scope display_value="Sharkflix">9f44c0a8c33b22108c14f1d4e401316c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-09 17:50:29</sys_updated_on>
+        <sys_updated_on>2025-09-11 12:14:20</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
@@ -1520,14 +1520,14 @@ outputs.endpoint = gs.getProperty("x_1303339_netflix.integration_endpoint", "");
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-09 14:26:47</sys_created_on>
         <sys_id>b1ef73bac3b322108c14f1d4e4013103</sys_id>
-        <sys_mod_count>33</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Sharkflix">9f44c0a8c33b22108c14f1d4e401316c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-09 17:50:29</sys_updated_on>
+        <sys_updated_on>2025-09-11 12:14:20</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1728,17 +1728,17 @@ outputs.endpoint = gs.getProperty("x_1303339_netflix.integration_endpoint", "");
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Integration OMDB Api">32fdbbbec37322108c14f1d4e4013170</action_id>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"b1212087c37722108c14f1d4e4013135","name":"plan","plan_signature":null}}</plan>
-        <snapshot>ce8e6c87c3b722108c14f1d4e40131c3</snapshot>
+        <snapshot>e9c471abc373e2108c14f1d4e4013119</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-09 16:52:04</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b1212087c37722108c14f1d4e4013135</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-09 17:50:32</sys_updated_on>
+        <sys_updated_on>2025-09-11 12:14:24</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1865,10 +1865,10 @@ outputs.endpoint = gs.getProperty("x_1303339_netflix.integration_endpoint", "");
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-09 16:52:02</sys_created_on>
         <sys_id>1921ec47c37722108c14f1d4e40131a4</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Sharkflix">9f44c0a8c33b22108c14f1d4e401316c</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-09 16:52:02</sys_updated_on>
+        <sys_updated_on>2025-09-11 12:14:22</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1921ec47c37722108c14f1d4e40131a4"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2086,11 +2086,11 @@ outputs.endpoint = gs.getProperty("x_1303339_netflix.integration_endpoint", "");
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-09 16:52:02</sys_created_on>
         <sys_id>a921ec47c37722108c14f1d4e40131ba</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-09 16:52:02</sys_updated_on>
+        <sys_updated_on>2025-09-11 12:14:22</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value>{"type":"ADV_NV","value":[{"name":"apikey","value":"{{step[aab3d8b8-65f1-427a-971c-b44d9d10e6db].apikey}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"t","value":"{{action.title1}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"y","value":"{{action.year}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"plot","value":"{{step[aab3d8b8-65f1-427a-971c-b44d9d10e6db].plot}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+        <value>{"type":"ADV_NV","value":[{"name":"apikey","value":"{{step[aab3d8b8-65f1-427a-971c-b44d9d10e6db].apikey}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"t","value":"{{action.title1}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"type","value":"{{action.type1}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"y","value":"{{action.year}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"plot","value":"{{step[aab3d8b8-65f1-427a-971c-b44d9d10e6db].plot}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
     </sys_element_mapping>
     <sys_translated_text action="delete_multiple" query="documentkey=1921ec47c37722108c14f1d4e40131a4"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=1921ec47c37722108c14f1d4e40131a4"/>
@@ -2622,7 +2622,7 @@ outputs.endpoint = gs.getProperty("x_1303339_netflix.integration_endpoint", "");
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a921ec47c37722108c14f1d4e40131c2</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -2630,7 +2630,7 @@ outputs.endpoint = gs.getProperty("x_1303339_netflix.integration_endpoint", "");
         <sys_scope display_value="Sharkflix">9f44c0a8c33b22108c14f1d4e401316c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-09 17:50:31</sys_updated_on>
+        <sys_updated_on>2025-09-11 12:14:22</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -3094,7 +3094,7 @@ outputs.endpoint = gs.getProperty("x_1303339_netflix.integration_endpoint", "");
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e121ec47c37722108c14f1d4e40131cd</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -3102,7 +3102,7 @@ outputs.endpoint = gs.getProperty("x_1303339_netflix.integration_endpoint", "");
         <sys_scope display_value="Sharkflix">9f44c0a8c33b22108c14f1d4e401316c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-09 17:50:31</sys_updated_on>
+        <sys_updated_on>2025-09-11 12:14:22</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
@@ -3257,14 +3257,14 @@ outputs.endpoint = gs.getProperty("x_1303339_netflix.integration_endpoint", "");
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-09 16:52:03</sys_created_on>
         <sys_id>a921ec47c37722108c14f1d4e40131d5</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Sharkflix">9f44c0a8c33b22108c14f1d4e401316c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-09 17:50:31</sys_updated_on>
+        <sys_updated_on>2025-09-11 12:14:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3290,7 +3290,7 @@ outputs.endpoint = gs.getProperty("x_1303339_netflix.integration_endpoint", "");
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-09-09 16:52:03</sys_updated_on>
     </sys_hub_action_status_metadata>
-    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=e121ec47c37722108c14f1d4e40131e1^sys_idNOT IN468e6c87c3b722108c14f1d4e40131c3,c28e6c87c3b722108c14f1d4e40131c3"/>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=e121ec47c37722108c14f1d4e40131e1^sys_idNOT IN61c471abc373e2108c14f1d4e4013119,a9c471abc373e2108c14f1d4e4013118"/>
     <sys_hub_status_condition action="INSERT_OR_UPDATE">
         <action_status_metadata_id display_value="Created 09/09/2025 13:52:03">e121ec47c37722108c14f1d4e40131e1</action_status_metadata_id>
         <condition>{{step[2eaf23aa-4c32-4fd2-865f-47fe7c70d0e5].error_code}}=1</condition>
@@ -3299,11 +3299,11 @@ outputs.endpoint = gs.getProperty("x_1303339_netflix.integration_endpoint", "");
         <order>2</order>
         <status>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"404"}},"message":{"$cv":{"$c":"java.lang.String","$v":" 1 - Integration error: check the OMDB URL"}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</status>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-09 17:50:31</sys_created_on>
-        <sys_id>468e6c87c3b722108c14f1d4e40131c3</sys_id>
+        <sys_created_on>2025-09-11 12:14:22</sys_created_on>
+        <sys_id>61c471abc373e2108c14f1d4e4013119</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-09 17:50:31</sys_updated_on>
+        <sys_updated_on>2025-09-11 12:14:22</sys_updated_on>
     </sys_hub_status_condition>
     <sys_hub_status_condition action="INSERT_OR_UPDATE">
         <action_status_metadata_id display_value="Created 09/09/2025 13:52:03">e121ec47c37722108c14f1d4e40131e1</action_status_metadata_id>
@@ -3313,11 +3313,11 @@ outputs.endpoint = gs.getProperty("x_1303339_netflix.integration_endpoint", "");
         <order>1</order>
         <status>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"404"}},"message":{"$cv":{"$c":"java.lang.String","$v":"2 - Integration error: check the OMDB URL"}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</status>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-09 17:50:31</sys_created_on>
-        <sys_id>c28e6c87c3b722108c14f1d4e40131c3</sys_id>
+        <sys_created_on>2025-09-11 12:14:22</sys_created_on>
+        <sys_id>a9c471abc373e2108c14f1d4e4013118</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-09 17:50:31</sys_updated_on>
+        <sys_updated_on>2025-09-11 12:14:22</sys_updated_on>
     </sys_hub_status_condition>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_d121ec47c37722108c14f1d4e4013162^sys_idNOT IN1121ec47c37722108c14f1d4e4013179,1921ec47c37722108c14f1d4e401317c,5121ec47c37722108c14f1d4e4013169"/>
     <sys_documentation action="INSERT_OR_UPDATE">
