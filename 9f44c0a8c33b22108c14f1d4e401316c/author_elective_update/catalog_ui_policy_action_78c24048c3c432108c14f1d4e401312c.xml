@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Copy of Sharkflix">0cc2cc08c3c432108c14f1d4e40131bc</catalog_item>
+        <catalog_variable>IO:10c20048c3c432108c14f1d4e4013164</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-12 17:13:12</sys_created_on>
+        <sys_id>78c24048c3c432108c14f1d4e401312c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>rating</sys_name>
+        <sys_package display_value="Sharkflix" source="x_1303339_netflix">9f44c0a8c33b22108c14f1d4e401316c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sharkflix">9f44c0a8c33b22108c14f1d4e401316c</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_78c24048c3c432108c14f1d4e401312c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-12 17:13:12</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Mandatory fields">b8c24048c3c432108c14f1d4e401310d</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>rating</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=78c24048c3c432108c14f1d4e401312c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sharkflix">9f44c0a8c33b22108c14f1d4e401316c</application>
+        <file_path/>
+        <instance_id>0a3b9712fb1b9ed052b0f3585eefdc91</instance_id>
+        <instance_name>dev292922</instance_name>
+        <name>catalog_ui_policy_action_78c24048c3c432108c14f1d4e401312c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Copy of Sharkflix">0cc2cc08c3c432108c14f1d4e40131bc</catalog_item><catalog_variable>IO:10c20048c3c432108c14f1d4e4013164</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-12 17:13:12</sys_created_on><sys_id>78c24048c3c432108c14f1d4e401312c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>rating</sys_name><sys_package display_value="Sharkflix" source="x_1303339_netflix">9f44c0a8c33b22108c14f1d4e401316c</sys_package><sys_policy/><sys_scope display_value="Sharkflix">9f44c0a8c33b22108c14f1d4e401316c</sys_scope><sys_update_name>catalog_ui_policy_action_78c24048c3c432108c14f1d4e401312c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-12 17:13:12</sys_updated_on><table/><ui_policy display_value="Mandatory fields">b8c24048c3c432108c14f1d4e401310d</ui_policy><value/><value_action>ignore</value_action><variable>rating</variable><variable_set/><visible>ignore</visible></catalog_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=78c24048c3c432108c14f1d4e401312c"/></record_update>]]></payload>
+        <payload_hash>-1559410392</payload_hash>
+        <record_name>rating</record_name>
+        <reverted_from/>
+        <source>bbfc48a0c37b22108c14f1d4e4013135</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-12 17:13:12</sys_created_on>
+        <sys_id>f4c24048c3c432108c14f1d4e4013135</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1993eeab2eb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-12 17:13:12</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>f8c2404867c43210b2d997037240a234</update_guid>
+        <update_guid_history>f8c2404867c43210b2d997037240a234:-1559410392</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="rating">a4ba4404c30832108c14f1d4e4013132</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-12 17:47:52</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>65e1b7fc2dc0409a827327f226fcff04</sys_id>
+        <sys_metadata>78c24048c3c432108c14f1d4e401312c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>rating</sys_name>
+        <sys_package display_value="Sharkflix" source="x_1303339_netflix">9f44c0a8c33b22108c14f1d4e401316c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sharkflix">9f44c0a8c33b22108c14f1d4e401316c</sys_scope>
+        <sys_scope_delete display_value="">01a30cc5fc374de0800f39487971b401</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_78c24048c3c432108c14f1d4e401312c</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_78c24048c3c432108c14f1d4e401312c">f4c24048c3c432108c14f1d4e4013135</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-12 17:47:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
