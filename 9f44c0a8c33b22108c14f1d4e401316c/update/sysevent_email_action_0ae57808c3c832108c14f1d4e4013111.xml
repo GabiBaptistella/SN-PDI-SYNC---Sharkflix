@@ -37,9 +37,9 @@
         <mandatory>false</mandatory>
         <message/>
         <message_html><![CDATA[<p>Hello ${opened_by.first_name}.</p>
-<p>Thank you for your suggestion for the ${suggestion.type} ${suggestion.title}.</p>
+<p>Thank you for your suggestion for the ${type} ${title}.</p>
 <p>It is <strong>reproved</strong></p>
-<p>If you want to send more suggestions, click <a href="https://dev292922.service-now.com/sp?id=sc_cat_item&amp;sys_id=0cc2cc08c3c432108c14f1d4e40131bc&amp;sysparm_category=3a3e9d8dc33722108c14f1d4e401314e">here</a></p>]]></message_html>
+<p>If you want to send more suggestions, click <a href="https://dev292922.service-now.com/sp?id=sc_cat_item&amp;sys_id=0cc2cc08c3c432108c14f1d4e40131bc">here</a></p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Suggestion Reproved</name>
@@ -61,7 +61,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0ae57808c3c832108c14f1d4e4013111</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Suggestion Reproved</sys_name>
         <sys_overrides/>
         <sys_package display_value="Sharkflix" source="x_1303339_netflix">9f44c0a8c33b22108c14f1d4e401316c</sys_package>
@@ -69,7 +69,7 @@
         <sys_scope display_value="Sharkflix">9f44c0a8c33b22108c14f1d4e401316c</sys_scope>
         <sys_update_name>sysevent_email_action_0ae57808c3c832108c14f1d4e4013111</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-12 20:56:40</sys_updated_on>
+        <sys_updated_on>2025-09-15 12:28:49</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
