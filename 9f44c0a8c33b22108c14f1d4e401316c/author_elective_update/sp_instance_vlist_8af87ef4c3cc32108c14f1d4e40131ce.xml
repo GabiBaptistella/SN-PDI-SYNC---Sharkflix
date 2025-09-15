@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field>title</display_field>
+        <field_list/>
+        <filter/>
+        <glyph>film</glyph>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>lg</size>
+        <sp_column display_value="1">1be8b6b8c3cc32108c14f1d4e401315a</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-15 14:24:43</sys_created_on>
+        <sys_id>8af87ef4c3cc32108c14f1d4e40131ce</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sharkflix" source="x_1303339_netflix">9f44c0a8c33b22108c14f1d4e401316c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sharkflix">9f44c0a8c33b22108c14f1d4e401316c</sys_scope>
+        <sys_update_name>sp_instance_vlist_8af87ef4c3cc32108c14f1d4e40131ce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-15 14:28:38</sys_updated_on>
+        <table>x_1303339_netflix_media</table>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"always_show": {
+		"value": "",
+		"displayValue": ""
+	},
+	"panel_body_height": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image_field": {
+		"value": "poster",
+		"displayValue": "poster"
+	},
+	"secondary_fields": {
+		"value": "type,release_year,average_rating,imdb_rating,awards,genre,language",
+		"displayValue": "type,release_year,average_rating,imdb_rating,awards,genre,language"
+	},
+	"rounded_images": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "",
+		"displayValue": ""
+	},
+	"view": {
+		"value": "",
+		"displayValue": ""
+	},
+	"disable_record_watcher": {
+		"value": "",
+		"displayValue": ""
+	},
+	"filter_acls": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]></widget_parameters>
+    </sp_instance_vlist>
+    <sys_translated_text action="DELETE" query="documentkey=8af87ef4c3cc32108c14f1d4e40131ce"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sharkflix">9f44c0a8c33b22108c14f1d4e401316c</application>
+        <file_path/>
+        <instance_id>0a3b9712fb1b9ed052b0f3585eefdc91</instance_id>
+        <instance_name>dev292922</instance_name>
+        <name>sp_instance_vlist_8af87ef4c3cc32108c14f1d4e40131ce</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_vlist"&gt;&lt;sp_instance_vlist action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;display_field&gt;title&lt;/display_field&gt;&lt;field_list/&gt;&lt;filter/&gt;&lt;glyph&gt;film&lt;/glyph&gt;&lt;id/&gt;&lt;maximum_entries&gt;5&lt;/maximum_entries&gt;&lt;order&gt;1&lt;/order&gt;&lt;order_by/&gt;&lt;order_direction&gt;asc&lt;/order_direction&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;lg&lt;/size&gt;&lt;sp_column display_value="1"&gt;1be8b6b8c3cc32108c14f1d4e401315a&lt;/sp_column&gt;&lt;sp_page/&gt;&lt;sp_widget display_value="Simple List"&gt;5b255672cb03020000f8d856634c9c28&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_vlist&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-15 14:24:43&lt;/sys_created_on&gt;&lt;sys_id&gt;8af87ef4c3cc32108c14f1d4e40131ce&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Sharkflix" source="x_1303339_netflix"&gt;9f44c0a8c33b22108c14f1d4e401316c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Sharkflix"&gt;9f44c0a8c33b22108c14f1d4e401316c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_vlist_8af87ef4c3cc32108c14f1d4e40131ce&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-15 14:28:38&lt;/sys_updated_on&gt;&lt;table&gt;x_1303339_netflix_media&lt;/table&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"always_show": {
+		"value": "",
+		"displayValue": ""
+	},
+	"panel_body_height": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image_field": {
+		"value": "poster",
+		"displayValue": "poster"
+	},
+	"secondary_fields": {
+		"value": "type,release_year,average_rating,imdb_rating,awards,genre,language",
+		"displayValue": "type,release_year,average_rating,imdb_rating,awards,genre,language"
+	},
+	"rounded_images": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "",
+		"displayValue": ""
+	},
+	"view": {
+		"value": "",
+		"displayValue": ""
+	},
+	"disable_record_watcher": {
+		"value": "",
+		"displayValue": ""
+	},
+	"filter_acls": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_vlist&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=8af87ef4c3cc32108c14f1d4e40131ce"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-544951564</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>bbfc48a0c37b22108c14f1d4e4013135</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-15 14:28:38</sys_created_on>
+        <sys_id>17d97ab8c3cc32108c14f1d4e4013160</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1994dc71c4f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-15 14:28:38</sys_updated_on>
+        <type>Instance of Simple List</type>
+        <update_guid>9bd97ab881cc3210e1924a1d0b2c5f5f</update_guid>
+        <update_guid_history>9bd97ab881cc3210e1924a1d0b2c5f5f:-544951564,aab9f6f8d2cc321097d5ee3e717b6b58:1624662928,4c893ab837cc3210391dd68f6d2d087e:-1620534464,78397eb8c3cc321033b6a86fcbc29d0a:269533220,4af83ab84dcc3210755cbeac5af98578:148114881</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">76e9faf8c3cc32108c14f1d4e401313b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-15 14:28:52</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_vlist">sp_instance_vlist</sys_db_object>
+        <sys_id>0659659a4a304f54811c4bea828c1610</sys_id>
+        <sys_metadata>8af87ef4c3cc32108c14f1d4e40131ce</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sharkflix" source="x_1303339_netflix">9f44c0a8c33b22108c14f1d4e401316c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sharkflix">9f44c0a8c33b22108c14f1d4e401316c</sys_scope>
+        <sys_scope_delete display_value="">01a30cc5fc374de0800f39487971b401</sys_scope_delete>
+        <sys_update_name>sp_instance_vlist_8af87ef4c3cc32108c14f1d4e40131ce</sys_update_name>
+        <sys_update_version display_value="sp_instance_vlist_8af87ef4c3cc32108c14f1d4e40131ce">17d97ab8c3cc32108c14f1d4e4013160</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-15 14:28:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
