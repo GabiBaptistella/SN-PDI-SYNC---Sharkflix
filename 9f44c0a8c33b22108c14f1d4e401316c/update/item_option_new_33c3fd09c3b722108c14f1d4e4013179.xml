@@ -59,7 +59,7 @@ Choose which one you want to review</help_text>
         <record/>
         <record_producer_table>x_1303339_netflix_review</record_producer_table>
         <reference>x_1303339_netflix_media</reference>
-        <reference_qual/>
+        <reference_qual>javascript:'sys_idIN' + new x_1303339_netflix.MediaUtils().refQualMedias();</reference_qual>
         <reference_qual_condition/>
         <rich_text/>
         <roles_to_use_also_request_for/>
@@ -80,14 +80,14 @@ Choose which one you want to review</help_text>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-03 17:53:29</sys_created_on>
         <sys_id>33c3fd09c3b722108c14f1d4e4013179</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Choose your media:</sys_name>
         <sys_package display_value="Sharkflix" source="x_1303339_netflix">9f44c0a8c33b22108c14f1d4e401316c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Sharkflix">9f44c0a8c33b22108c14f1d4e401316c</sys_scope>
         <sys_update_name>item_option_new_33c3fd09c3b722108c14f1d4e4013179</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-03 18:50:50</sys_updated_on>
+        <sys_updated_on>2025-09-16 20:23:33</sys_updated_on>
         <table/>
         <tooltip>Choose your media here!</tooltip>
         <topic_block/>
@@ -95,7 +95,7 @@ Choose which one you want to review</help_text>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
+        <use_reference_qualifier>advanced</use_reference_qualifier>
         <validate_regex/>
         <variable_name/>
         <variable_set/>
