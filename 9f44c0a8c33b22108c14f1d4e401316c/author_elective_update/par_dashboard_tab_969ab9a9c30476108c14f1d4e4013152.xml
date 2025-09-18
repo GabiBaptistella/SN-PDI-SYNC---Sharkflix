@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_tab">
+    <par_dashboard_tab action="DELETE">
+        <active>true</active>
+        <background_color/>
+        <dashboard display_value="Review">929a3129c30476108c14f1d4e4013178</dashboard>
+        <name>New Tab 1</name>
+        <order>0</order>
+        <sys_class_name>par_dashboard_tab</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-17 17:47:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>969ab9a9c30476108c14f1d4e4013152</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Tab 1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sharkflix" source="x_1303339_netflix">9f44c0a8c33b22108c14f1d4e401316c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sharkflix">9f44c0a8c33b22108c14f1d4e401316c</sys_scope>
+        <sys_update_name>par_dashboard_tab_969ab9a9c30476108c14f1d4e4013152</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 17:47:41</sys_updated_on>
+    </par_dashboard_tab>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sharkflix">9f44c0a8c33b22108c14f1d4e401316c</application>
+        <file_path/>
+        <instance_id>0a3b9712fb1b9ed052b0f3585eefdc91</instance_id>
+        <instance_name>dev292922</instance_name>
+        <name>par_dashboard_tab_969ab9a9c30476108c14f1d4e4013152</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_tab"><par_dashboard_tab action="INSERT_OR_UPDATE"><active>true</active><background_color/><dashboard display_value="Review">929a3129c30476108c14f1d4e4013178</dashboard><name>New Tab 1</name><order>0</order><sys_class_name>par_dashboard_tab</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-17 17:47:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>969ab9a9c30476108c14f1d4e4013152</sys_id><sys_mod_count>0</sys_mod_count><sys_name>New Tab 1</sys_name><sys_overrides/><sys_package display_value="Sharkflix" source="x_1303339_netflix">9f44c0a8c33b22108c14f1d4e401316c</sys_package><sys_policy/><sys_scope display_value="Sharkflix">9f44c0a8c33b22108c14f1d4e401316c</sys_scope><sys_update_name>par_dashboard_tab_969ab9a9c30476108c14f1d4e4013152</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-17 17:47:41</sys_updated_on></par_dashboard_tab></record_update>]]></payload>
+        <payload_hash>-2061692882</payload_hash>
+        <record_name>New Tab 1</record_name>
+        <reverted_from/>
+        <source>bbfc48a0c37b22108c14f1d4e4013135</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-17 17:47:41</sys_created_on>
+        <sys_id>5e9ab9a9c30476108c14f1d4e4013154</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19958ca0e9d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 17:47:41</sys_updated_on>
+        <type>PAR Dashboard Tab</type>
+        <update_guid>129ab9a9e0047610ba61e90188e88954</update_guid>
+        <update_guid_history>129ab9a9e0047610ba61e90188e88954:-2061692882</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="New Tab 1">39ec866dc308b6108c14f1d4e40131c9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-17 19:07:40</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_tab">par_dashboard_tab</sys_db_object>
+        <sys_id>189713f6ff004232b46e23e0292fa1a4</sys_id>
+        <sys_metadata>969ab9a9c30476108c14f1d4e4013152</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Tab 1</sys_name>
+        <sys_package display_value="Sharkflix" source="x_1303339_netflix">9f44c0a8c33b22108c14f1d4e401316c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sharkflix">9f44c0a8c33b22108c14f1d4e401316c</sys_scope>
+        <sys_scope_delete display_value="">01a30cc5fc374de0800f39487971b401</sys_scope_delete>
+        <sys_update_name>par_dashboard_tab_969ab9a9c30476108c14f1d4e4013152</sys_update_name>
+        <sys_update_version display_value="par_dashboard_tab_969ab9a9c30476108c14f1d4e4013152">5e9ab9a9c30476108c14f1d4e4013154</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 19:07:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_tab">
+    <par_dashboard_tab action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <background_color/>
+        <dashboard display_value="Review">929a3129c30476108c14f1d4e4013178</dashboard>
+        <name>Home Reviews</name>
+        <order>0</order>
+        <sys_class_name>par_dashboard_tab</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-17 19:07:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f1ec86a5c3c4b6108c14f1d4e4013181</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Home Reviews</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sharkflix" source="x_1303339_netflix">9f44c0a8c33b22108c14f1d4e401316c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sharkflix">9f44c0a8c33b22108c14f1d4e401316c</sys_scope>
+        <sys_update_name>par_dashboard_tab_f1ec86a5c3c4b6108c14f1d4e4013181</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 19:22:53</sys_updated_on>
+    </par_dashboard_tab>
+</record_update>
